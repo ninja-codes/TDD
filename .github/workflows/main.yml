@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run stack implementation tests
-        run: python3 stackTest.py
+        run: python3 -v stackTest.py
         
       - name: Run queue implementation tests
-        run: python3 QueueTest.py
+        run: python3 -v QueueTest.py
       # Runs a set of commands using the runners shell
 #       - name: Run a multi-line script
 #         run: |
